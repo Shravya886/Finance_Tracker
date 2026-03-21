@@ -1,0 +1,167 @@
+body
+{
+    font-family: "Comfortaa", serif;
+}
+.header
+{
+    background: #476EF7;
+    color: white;
+    padding-left: 25px;
+    font-size:large;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header{
+    width: auto;
+}
+.header-right ul{
+    display: flex;
+    font-size: 20px;
+
+}
+
+.header-right ul li {
+    list-style-type: none;
+    margin: 20px;
+    color: white;
+    font-size: 23px;
+
+}
+.header-right ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-right ul li a:hover{
+    color: rgb(0, 0, 0);
+
+}
+
+.input-form
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #476EF7;
+    margin-top: 15px;
+    padding: 25px 0px;
+}
+
+#add-button
+{
+    background:#476EF7 ;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+}
+.inputs
+{
+    width: 20%;
+}
+
+.cards
+{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+}
+.card
+{
+    background:#476EF7;
+    border: 0px;
+    height: 150px;
+}
+.card-body
+{
+    color: white;
+}
+
+
+.transaction-table
+{
+
+    width: 95%;
+    margin: auto;
+    border: 1px black solid;
+    border-radius: 8px;
+    overflow: hidden;
+    font-weight:900;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.5);
+    padding: 0px;
+}
+
+#header-row
+{
+    background: #476EF7;
+  
+}
+
+#header-row th
+{
+    padding: 15px 10px;
+    color: white;
+}
+
+.delete-button,.delete-button:hover
+{
+    background: red;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 667px) { 
+    body{
+        margin: 0;
+        padding: 0;
+
+    }
+    .inputs
+    {
+        width: 95%;
+    }
+.header{
+    width: 100vw;
+}
+    
+.input-form
+{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    gap: 10px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #476EF7;
+    margin-top: 15px;
+    padding: 25px 0px;
+}
+
+.cards
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 95%;
+}
+.card{
+    margin: auto;
+}
+
+.transaction-table
+{
+    width: 95vw;
+}
+
+}
